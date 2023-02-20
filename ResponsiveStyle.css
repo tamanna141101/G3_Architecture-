@@ -1,0 +1,344 @@
+@media only screen and (max-width: 480px){
+    
+    .container{
+    margin: 0 5px;
+    }
+    
+   
+    .btn-primary {
+
+        font-size: 10px;
+        padding: 10px 7px;
+        background: #f88d41;
+       
+    }
+    
+   p{
+    font-size: 12px;
+   }
+    
+    /* header and navigation styles */
+    .nav{
+        text-align: center;
+    
+   
+    }
+        nav {
+            display: grid;     
+            grid-template-columns: auto;
+            text-align: center;
+            justify-content: center;
+            padding: 50px 100px;
+        
+        }
+    
+    
+    .nav-title {
+        font-weight: 800;
+        font-size: 20px;
+        text-align: center;
+      
+    }
+    
+    nav ul {
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+        padding-right: 50%;
+        align-content:none;
+    
+    
+      
+    }
+
+    nav li {
+        list-style: none;
+        margin:5px 0;
+    }
+    
+
+    /* banner styles */
+    .banner {
+        
+            align-items: center;
+            margin: 0 5px;
+            text-align: center;     
+   
+    }
+    
+    .banner-title {
+        font-weight: 700;
+        font-size: 24px;
+    }
+       
+    .banner-description {
+        font-size: 12px;
+        margin:  20px 5px;
+    }
+    
+    .banner-image img {
+        height: 150px;
+        width: auto;
+        margin-bottom: 50px;
+    }
+    
+    
+    /* features section */
+    .features_container{
+        display:grid;
+        grid-template-columns: auto;
+        padding: 10px 5px;
+        gap: 5px;
+    
+       
+    }
+    
+    .features_image{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+       
+        
+    }
+    .image{
+      
+        margin: auto;
+        height: 300px;
+        width: 300px;
+    }
+    .image img{
+            height: 300px;
+            width: 300px;
+        
+    }
+    
+    .features_text{
+       padding: 10px;
+       text-align: center;
+      
+
+      
+    }
+     .features_text h2{
+        font-size: 20px;
+        padding: 0 5px;
+        text-align: center;
+      
+    }
+    
+    .features-title span:nth-child(1){
+        color: #757575;
+    }
+    .features-title span:nth-child(2){
+        color: #ee6c30;
+    }
+    
+    .features-description{
+        color: #757575;
+        margin: 20px  5px;
+        text-align: justify;
+        
+    }
+    
+    /* love and enjoy section  */
+    .love_and_enjoy_container{
+        display:grid;
+        grid-template-columns: auto;
+        padding: 0 5px;
+        gap: 55px; 
+        margin: 10px 0;
+        text-align: center;
+    }
+    
+
+   
+    
+    .love_enjoy_title h2{
+        font-size: 20px;
+        padding-right: 210px;
+        font-weight:900;
+    }
+    
+    .love_enjoy_title_description{
+       text-align: justify;
+    }
+    .love_enjoy_card{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+        margin: 10px;
+    }
+    
+    .love_enjoy_card .card h3{
+        font-size: 14px;
+    }
+    .love_enjoy_card .card p{
+     
+        margin: 10px 5px;
+    }
+    
+    
+    .love_and_enjoy_image img{
+        width: 90%;
+        height: 90%;
+       
+       
+    }
+    
+    .love_and_enjoy_image .btn-primary {
+     
+        padding: 30px 20px;
+        margin: 10px -70px;
+       
+        
+    }
+    
+    .love_and_enjoy_image .btn-primary span{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    
+    /* Facts Section */
+    
+    .Facts_text{
+        width: auto;
+        padding-top: 100px;
+        margin: 0 5px;
+        text-align: center;
+    }
+    
+    .Facts_text .Facts_title{
+        font-size: 30px;
+        font-weight: 900;
+    }
+    .Facts_text .Facts_title_description{
+        color: #757575;
+        margin: 2px 0;
+    }
+    
+    .Facts_card{
+        display:grid;
+        grid-template-columns: auto;
+        gap: 10px;
+        margin: 20px 10px;
+        
+        
+    }
+    
+    .Facts_card .card{
+        padding: 30px;
+        margin: 10px 50px;
+        text-align: center;
+        align-items: center;
+        border: 2px solid #ee6c30;
+        
+    }
+    
+    .Facts_card .card li{
+        list-style: none;
+        font-size: 40px;
+        color: #ee6c30;
+     
+    }
+    
+    .Facts_card .card h3{
+        list-style: none;
+        font-size:  25px;
+        font-weight: 900;
+        color: #302c2c;
+        margin: 6px 0;
+    
+    }
+    .Facts_card .card p{
+        color: #757575;
+    }
+    /* contact section */
+    
+    .contact{
+        background: #f7dfe0;
+        
+    }
+    
+    .contact_container{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 50px;
+        margin: 0 5px;
+        padding: 50px 0;
+        
+    
+    
+    }
+    .contact_text{
+        text-align: center;
+      
+    }
+    
+     .contact-title{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .contact_form{
+        text-align: center;
+    }
+    .contact_text a{
+        text-decoration: none;
+        color: #f88d41;
+        font-size: 35px;
+    }
+    
+    form{
+        margin: 5px 0;
+        align-items: center;
+    }
+    
+    .contact input[type="text"], input[type="email"], textarea{
+        margin: 5px;
+        border: 2px solid #f88d41;
+        border-radius: 15px;
+        width: 85%;
+        padding: 10px 15px;
+        background-color: transparent;
+    }
+    
+    input{
+        height: 30px;
+    }
+   
+    /* Footer section */
+    .footer_text{
+        text-align: center;
+        padding: 40px 0;
+        margin: 0 5px;
+    }
+    
+    .footer_text .footer_title{
+        font-size: 20px;
+    }
+    
+    .footer_text .footer_description{
+        color: #757575;
+        margin: 15px 5px;
+    }
+    
+    .sponsor_team{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 50px;
+     
+        
+        
+    }
+    .sponsor_team img {
+        margin: auto;
+      }
+    
+      .copyright_description {     
+        margin: 150px 15px;
+        text-align: center;
+       
+      }
+       
+}
